@@ -3,7 +3,4 @@ class Spec_helper
   SimpleCov.start
   require_relative '../RomanNumeral'
   #require_relative '../string_ops'
-  
-  require 'codecov'
-  SimpleCov.formatter = SimpleCov::Formatter::Codecov
 end
